@@ -9,14 +9,24 @@
 <body>
     <h1>Piedra, Papel o Tijera</h1>
     <div id="contenedor-usuario1">
-        <select name="" id="">
-            <option value="0">Elegir Opcion</option>
-            <option value="Piedra">Piedra</option>
-            <option value="Papel">Papel</option>
-            <option value="Tijera">Tijera</option>
+        <select onchange="generarImg1()" name="" id="opcion-select">
+            <option value="Elegir Opcion">Elegir Opcion</option>
+            <option value="0">Piedra</option>
+            <option value="1">Papel</option>
+            <option value="2">Tijera</option>
         </select>
+        <div id="img-1">
+            
+        </div>
+    </div>
+
+    <div id="contenedor-usuario2">
+        <div id="img-2">
+            
+        </div>
     </div>
     
+    <p id="resultado"></p>
 
     <script src="script.js"></script>
 </body>
